@@ -13,7 +13,7 @@ export default function App() {
   return (
     <div className="App">
       <h1>Things To Do</h1>
-      <TodoList todos={todos} />
+      <TodoList todos={todos} deleter={deleteTodo} />
     </div>
   );
 }
